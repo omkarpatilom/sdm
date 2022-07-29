@@ -1,0 +1,25 @@
+$ git git remote add origin https://github.com/omkarpatilom/sdm.git
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+omkar@Lenovo MINGW64 /d/CDAC/SDM/demogit (main)
+$  git remote add origin https://github.com/omkarpatilom/sdm.git
+error: remote origin already exists.
+
+omkar@Lenovo MINGW64 /d/CDAC/SDM/demogit (main)
+$ git push -u -f origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 846 bytes | 282.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/omkarpatilom/sdm.git
+ + 1d1b9a4...b394a5d main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+
+omkar@Lenovo MINGW64 /d/CDAC/SDM/demogit (main)
+$
